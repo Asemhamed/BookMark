@@ -21,8 +21,7 @@ form{
     padding: 20px 0;
 }
 .form-control:focus{
-    color: rgb(250, 222, 180);
-        box-shadow: 0 0 .25rem .25rem rgba(255, 185, 80, 0.518);
+    box-shadow: 0 0 .25rem .25rem rgba(255, 185, 80, 0.518);
 }
 
 
@@ -84,4 +83,43 @@ h2{
     --bs-btn-border-color:#9eb23b;
     --bs-btn-hover-bg:#8a9e23;
     --bs-btn-hover-border-color:#8a9e23;
+}
+
+
+
+.modal-body{
+    background-color: white;
+    width: 500px;
+    padding: 25px 30px;
+    border-radius: 10px;
+    margin: auto;
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: none;
+}
+.modal-body span {
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    cursor: pointer;
+}
+.modal-body h3{
+    font-size: 21px;
+    line-height: 27px;
+    font-weight: 800;
+}
+.modal-body p{
+    font-size: 17px;
+    line-height: 27px;
+    font-weight: 400;
+}
+.modal-body p i{
+    color: #BB4120;
+}
+.modal-header span{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
 }
